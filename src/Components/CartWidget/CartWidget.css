@@ -1,0 +1,31 @@
+.item-cart-container{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 1em;
+}
+
+
+.icon-cart{
+    position: absolute;
+    width: 100%;
+    font-size: 3em;
+    color: black;
+    transition: color .2s ease;
+}
+
+.icon-cart:hover{
+    color: white;
+}
+
+.number-item{
+    position: relative;
+    top: -0.7em;
+    left: 2em;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(197, 17, 17);
+}

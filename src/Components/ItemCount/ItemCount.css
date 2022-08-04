@@ -1,0 +1,53 @@
+.info-container-button{
+    display: flex;
+    flex-direction: column;
+    gap: .3em;
+    border-top: 2px solid black;
+    font-size: 2em;
+}
+
+.info-container-button div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+}
+
+.button{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    transition: background-color .2s ease ;
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+.button:disabled{
+    opacity: .75;
+}
+
+.button:disabled:hover{
+    opacity: .75;
+    background-color: white;
+}
+
+
+
+.button-add{
+    border: none;
+    font-size: .8em;
+    padding: .3em;
+    cursor: pointer;
+    outline: 2px solid black;
+    transition: background-color .2s ease;
+}
+
+.button-add:hover{
+    background-color: rgba(0, 0, 0, 0.226);
+}
